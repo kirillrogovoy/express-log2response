@@ -1,0 +1,8 @@
+.gitignore
+.npmignore
+index.coffee
+index.js.map
+.idea
+.git
+examples/
+node_modules/

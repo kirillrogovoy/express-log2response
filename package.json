@@ -1,0 +1,19 @@
+{
+  "name": "express-log2response",
+  "version": "0.9.0",
+  "description": "Tool (express middleware) that provides simple API to send your request-based logs directly into browser console",
+  "main": "index.js",
+  "readme": "README.md",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "express",
+    "logs",
+    "response",
+    "browser",
+    "console"
+  ],
+  "author": "Kirill Rogovoy <flash.kirill@gmail.com>",
+  "license": "MIT License"
+}
