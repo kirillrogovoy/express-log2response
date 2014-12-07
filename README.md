@@ -47,7 +47,7 @@ function(log) {
 </tr>
 <tr>
 <td colspan=3>Function that will be called for each log item before sending to browser.<br />
-Argument ```log``` has two fields: ```input``` - ```res.log``` input, ```css``` - style of input.<br/>
+Argument <code>log</code> has two fields: <code>input</code> - <code>res.log</code> input, <code>css</code> - style of input.<br/>
 You may change this values for changing input value (e.g. using object field instead of whole log object) or changing item's style (e.g. mark different log levels with different colors) </td>
 </tr>
 <tr>
@@ -62,7 +62,7 @@ function(req, res) {
 </td>
 </tr>
 <tr>
-<td colspan=3>Function that will be called right before calling ```res.send```. Arguments are ```req``` and ```res``` objects</td>
+<td colspan=3>Function that will be called right before calling <code>res.send</code>. Arguments are <code>req</code> and <code>res</code> objects</td>
 </tr>
 </table>
 
