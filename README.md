@@ -23,13 +23,14 @@ You can specify next options. All of these is not required:
 <th>Option</th>
 <th>Type</th>
 <th>Example</th>
-<th>Description</th>
 </tr>
 <tr>
 <td>css</td>
 <td>string</td>
-<td>```background: #222; color: lightgreen```</td>
-<td>Default css that will be used for browser console output. Defaults to example value</td>
+<td>background: #222; color: lightgreen</td>
+</tr>
+<tr>
+<td colspan=3>Default css that will be used for browser console output. Defaults to example value</td>
 </tr>
 <tr>
 <td>logCallback</td>
@@ -43,11 +44,11 @@ function(log) {
 }
 </pre>
 </td>
-<td>
-Function that will be called for each log item before sending to browser.<br />
+</tr>
+<tr>
+<td colspan=3>Function that will be called for each log item before sending to browser.<br />
 Argument ```log``` has two fields: ```input``` - ```res.log``` input, ```css``` - style of input.<br/>
-You may change this values for changing input value (e.g. using object field instead of whole log object) or changing item's style (e.g. mark different log levels with different colors)
-</td>
+You may change this values for changing input value (e.g. using object field instead of whole log object) or changing item's style (e.g. mark different log levels with different colors) </td>
 </tr>
 <tr>
 <td>sendCallback</td>
@@ -59,9 +60,9 @@ function(req, res) {
 }
 </pre>
 </td>
-<td>
-Function that will be called right before calling ```res.send```. Arguments are ```req``` and ```res``` objects
-</td>
+</tr>
+<tr>
+<td colspan=3>Function that will be called right before calling ```res.send```. Arguments are ```req``` and ```res``` objects</td>
 </tr>
 </table>
 
