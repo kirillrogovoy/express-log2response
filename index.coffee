@@ -4,7 +4,10 @@ logsToHtml = (logs, defaultCss, callback) ->
     do (log) ->
       log = input: log, css: defaultCss
       callback log
-      output+= "console.log('%c ' + #{JSON.stringify(log.input)}, '#{log.css}');"
+      output += if typeof log.input isnt "object"
+        "console.log('%c ' + #{JSON.stringify(log.input)}, '#{log.css}');"
+      else
+        "console.log(#{JSON.stringify(log.input)});"
   output += '</script>'
 
 module.exports = (options = {}) ->

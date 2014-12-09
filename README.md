@@ -1,5 +1,5 @@
 # Log2response
-Log2response is a tool (express middleware) that provides simple API to send your request-based logs directly into browser console. Its not a complex log utility, so you probably should use it with your main tool like [bunyan]
+Log2response is a tool (express middleware) that provides simple API to send your request-based logs directly into browser console. Its not a complex log utility, so you probably should use it with your main tool like [bunyan] as a transport
 
 # Features
 - All request-based logs in your developer's console
@@ -39,7 +39,7 @@ You can specify next options. All of these is not required:
 <pre>
 function(log) {
   if(log.input.level == 'error')
-    log.css = color: red;
+    log.css = 'color: red';
   log.input = log.input.msg;
 }
 </pre>

@@ -1,6 +1,6 @@
 {
   "name": "express-log2response",
-  "version": "0.9.1",
+  "version": "0.10.0",
   "description": "Tool (express middleware) that provides simple API to send your request-based logs directly into browser console",
   "main": "index.js",
   "scripts": {
