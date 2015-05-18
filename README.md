@@ -9,7 +9,7 @@ Log2response is a tool (express middleware) that provides simple API to send you
 
 # Installition
 ```sh
-npm install --save-dev bunyan
+npm install --save-dev express-log2response
 ```
 
 # Usage
